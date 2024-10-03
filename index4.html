@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SILICONTECH</title>
+    <meta
+      name="description"
+      content="Some ideas for image slideshow transitions."
+    />
+    <meta
+      name="keywords"
+      content="slideshow, transition, image transition, image animation, gsap, modern"
+    />
+    <meta name="author" content="Codrops" />
+    <link rel="stylesheet" href="https://use.typekit.net/uoh2fuj.css" />
+    <link rel="icon" href="./img/logo.PNG" type="PNG" />
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" href="/css/mediabase.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Audiowide"
+    />
+    <script>
+      document.documentElement.className = "js";
+      var supportsCssVars = function () {
+        var e,
+          t = document.createElement("style");
+        return (
+          (t.innerHTML = "root: { --tmp-var: bold; }"),
+          document.head.appendChild(t),
+          (e = !!(
+            window.CSS &&
+            window.CSS.supports &&
+            window.CSS.supports("font-weight", "var(--tmp-var)")
+          )),
+          t.parentNode.removeChild(t),
+          e
+        );
+      };
+      supportsCssVars() ||
+        alert(
+          "hello my good friend Please view SiliconTech website in a modern browser that supports CSS Variables, Thank you (Miran Miladi)"
+        );
+    </script>
+  </head>
+  <body class="demo-4 loading">
+    <main>
+      <header class="frame">
+        <div class="frame__title">
+          <a href="/index.html"><img src="./img/logof.png" alt="" /></a>
+        </div>
+
+        <nav class="frame__demos">
+          <span>episode</span>
+          <a href="index.html" class="frame__demo">01</a>
+          <a href="index2.html" class="frame__demo">02</a>
+          <a href="index3.html" class="frame__demo">03</a>
+          <a href="index4.html" class="frame__demo frame__demo--current">04</a>
+          <a href="index5.html" class="frame__demo">05</a>
+          <a href="index6.html" class="frame__demo">06</a>
+          <a href="index7.html" class="frame__demo">07</a>
+        </nav>
+        <nav class="slides-nav">
+          <button class="slides-nav__item slides-nav__item--prev">
+            &larr;
+          </button>
+          <button class="slides-nav__item slides-nav__item--next">
+            &rarr;
+          </button>
+        </nav>
+      </header>
+      <div class="slides">
+        <section class="slide">
+          <div
+            class="slide__img"
+          >
+            <div class="part">
+              <div class="cov"></div>
+              <img class="img3" src="./img/bot3.png" alt="" style="left:2%; width: 22%; height: 117%;"/>
+              <strong>web development cost</strong>
+              <h6>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                obcaecati aut, rem aliquam quidem magni porro laborum at
+                expedita assumenda architecto neque ea cum vero laboriosam odio
+                eum, totam error enim dolorum. Provident nulla tempora incidunt
+                quod et quia, nemo sapiente placeat autem sequi eaque, expedita
+                iusto libero soluta eum maxime magni asperiores. Quibusdam,
+                explicabo culpa voluptatem ipsam asperiores eos quos minus
+                accusantium perferendis ducimus excepturi deleniti? Ducimus
+                consequatur maxime nisi minima harum. Perferendis, tempora nam
+                at aut architecto dolores!
+              </h6>
+            </div>
+          </div>
+        </section>
+        <section class="slide">
+          <div
+            class="slide__img"
+          >
+            <div class="part">
+              <img class="img2" src="./img/bot2.png" alt="" />
+              <strong>the segmentation of the costs</strong>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus, cupiditate corrupti. Voluptates voluptatibus fuga
+                commodi, harum quaerat cum unde excepturi expedita, minus vero,
+                nisi enim aperiam labore cumque vel qui ducimus corporis facilis
+                repellendus atque esse debitis dolore. Soluta in distinctio
+                quisquam quis eveniet quaerat iusto iure adipisci tempore qui
+                eum itaque perspiciatis commodi, vitae nulla dolorum. Odio
+                accusamus sunt expedita ea, aliquam dolorem quo cupiditate nihil
+                aperiam, fugit suscipit animi maiores quidem ipsam saepe itaque
+                dolorum aut doloremque amet.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="https://tympanus.net/codrops/adpacks/cda_sponsor.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/Observer.min.js"></script>
+    <script type="module" src="js/st2/index.js"></script>
+  </body>
+</html>

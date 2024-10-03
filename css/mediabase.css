@@ -1,0 +1,230 @@
+@media only screen and (max-width: 800px) {
+  @keyframes loaderAnim {
+    to{
+      width: 600px;
+    }
+    100%{
+      transform: translateX(120%);
+    }
+  }
+  .js .loading::after{
+    top: 60%;
+  }
+  .demo-6 .part {
+    width: 99%;
+    height: 50%;
+  }
+  .demo-4 {
+    background:black;
+  }
+  .demo-2 {
+    background:black;
+  }
+  .demo-1 .slide .slide__img {
+    background:linear-gradient(
+      to bottom,
+      rgba(1,1,1,.4),
+      rgba(1,1,1,.7),
+      rgba(1,1,1,.4)
+    ),url(/img/backres1.jpg) center center;
+    background-size: cover;
+  }
+  .frame__title img {
+    width: 90%;
+  }
+  .frame__demos span {
+    display: none;
+  }
+  .frame__demos .frame__demo {
+    font-size: 12px;
+  }
+  .slide__img {
+    background-image: none;
+  }
+  .slide__img h2 {
+    font-size: 18px;
+    width: 100%;
+    line-height: 160%;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+  }
+  h2 img {
+    margin-top: 2%;
+    width: 15%;
+  }
+  .part .img2 {
+    display: none;
+  }
+  .part .img3 {
+    display: none;
+  }
+  .part .img4 {
+    display: none;
+  }
+  .demo-2 .part {
+    height: 70%;
+    width:100%;
+  }
+  .demo-2 .part p {
+    bottom: 0;
+    z-index: 2;
+    padding: 3%;
+    font-size: 8px;
+    width: 100%;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.077);
+    backdrop-filter: blur(20px);
+  }
+  .demo-2 .part h6 {
+    bottom: 0;
+    z-index: 2;
+    padding: 3%;
+    font-size: 8px;
+    width: 100%;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.077);
+    backdrop-filter: blur(30px);
+  }
+  .demo-2 .part strong {
+    font-size: x-small;
+    height: 1%;
+    left: 11%;
+  }
+  .part {
+    height: 50%;
+    width: 95%;
+    border: none;
+  }
+  .part strong {
+    font-size: 16px;
+  }
+  .part p {
+    font-size: 10px;
+    width: 90%;
+  }
+  .part h6 {
+    font-size: 10px;
+    width: 90%;
+  }
+  strong {
+    font-size: 16px;
+    text-align: center;
+  }
+  p {
+    font-size: 10px;
+    width: 90%;
+  }
+  .slides-nav::before {
+    font-size: 12px;
+  }
+  .slides-nav__item {
+    font-size: 12px;
+    width: 20%;
+  }
+  .icons {
+    width: 100%;
+    height: 100%;
+    top: 15%;
+    left: 0;
+  }
+  .img {
+    display: none;
+  }
+  h3 {
+    display: none;
+  }
+  .s {
+    height: 100%;
+    width: 20%;
+    font-size: 6px;
+  }
+  .se {
+    width: 80%;
+    font-size: 6px;
+    padding: 0px 2px;
+    text-align: center;
+  }
+  .part1 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    right: 0;
+    height: 100%;
+    background: url(/img/backres.JPG) center center;
+    background-size: cover;
+  }
+  .part2 {
+    width: 100%;
+    padding: 1%;
+    position: relative;
+    left: 0;
+    height: 100%;
+    background: linear-gradient(
+        to bottom,
+        rgba(1, 1, 1, 0.6) 1%,
+        rgba(1, 1, 1, 0.5) 99%
+      ),
+      url(/img/backres.JPG) center center;
+    background-size: cover;
+  }
+  .part3 {
+    width: 100%;
+    right: 0;
+    position: relative;
+    height: 100%;
+    background: linear-gradient(
+        to bottom,
+        rgba(1, 1, 1, 0.6) 1%,
+        rgba(1, 1, 1, 0.5) 99%
+      ),
+      url(/img/backres.JPG) center center;
+    background-size: cover;
+  }
+  .part4 {
+    width: 100%;
+    position: relative;
+    left: 0;
+    height: 100%;
+    background: linear-gradient(
+        to bottom,
+        rgba(1, 1, 1, 0.6) 1%,
+        rgba(1, 1, 1, 0.5) 99%
+      ),
+      url(/img/backres.jpg) center center;
+    background-size: cover;
+  }
+  .part5 {
+    width: 100%;
+    position: relative;
+    right: 0;
+    height: 100%;
+    background: linear-gradient(
+        to bottom,
+        rgba(1, 1, 1, 0.6) 1%,
+        rgba(1, 1, 1, 0.3) 99%
+      ),
+      url(/img/backres.jpg) center center;
+    background-size: cover;
+  }
+  .part6 {
+    width: 100%;
+    position: relative;
+    left: 0;
+    height: 100%;
+    background: linear-gradient(
+        to bottom,
+        rgba(1, 1, 1, 0.6) 1%,
+        rgba(1, 1, 1, 0) 99%
+      ),
+      url(/img/backres.jpg) center center;
+    background-size: cover;
+  }
+  .card{
+    width: 100%;
+    height: 50%;
+  }
+  .card:hover .profile-pic{
+    width: 33%;
+  }
+}
