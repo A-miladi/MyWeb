@@ -126,7 +126,7 @@ export class Slideshow {
           ease: "power3",
           scale: 5,
           scale: 0,
-          yPercent:2,
+          yPercent:-2,
           onComplete: () =>
             gsap.set(currentSlide, {
               rotation: 0,
